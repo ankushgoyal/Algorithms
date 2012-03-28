@@ -25,7 +25,7 @@ public class Mergesort<T extends Comparable<T>> {
 		
 	}
 	
-	public List<T> merge(List<T> left, List<T> right) {
+	private List<T> merge(List<T> left, List<T> right) {
 		List<T> output = new ArrayList<T>();
 		int i = 0;
 		int j = 0;
